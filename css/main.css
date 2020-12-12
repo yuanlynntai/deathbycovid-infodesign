@@ -1,0 +1,214 @@
+/* *************************************** */
+/* main and footer settings                */
+/* *************************************** */
+
+.main {
+    margin:auto;
+    padding:0;
+}
+
+.main section {
+    background-color: #000000;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.footer {
+    padding:5rem 10%;
+    height:100px;
+    width:80%;
+}
+
+.footer p {    
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.25;
+}
+
+
+/* *************************************** */
+/* Colors settings                         */
+/* *************************************** */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+h1 {
+    color:#FFFFFF;
+}
+h2 {
+    color:#BA2B2B;
+}
+h2.author {
+    color:#FFFFFF; 
+}
+
+h3 {
+    color:#BA2B2B;
+}
+
+p {
+    color:#ffffff;
+}
+
+a, 
+a:link, 
+a:visited {
+    color: #666;
+    border-bottom:1px;
+}
+
+a:hover {
+    color: #A83131;
+    border-bottom:1px;
+}
+
+.main section.color-bg-1 {
+    background-color: #BA2B2B; 
+}
+
+.main section.color-bg-1 h3 {
+    color: #ffffff;
+}
+
+
+.footer {
+    background-color: #000000;
+}
+.footer p {
+    color:#FFFFFF;
+}
+/* *************************************** */
+/* Fonts settings                          */
+/* *************************************** */
+
+
+*, html {
+    font-family: 'Manrope', sans-serif;
+    font-size:100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:800;
+    
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+}
+
+h2.project {
+    letter-spacing: 0px;
+    text-transform:none;
+    font-size:0.9rem;
+}
+
+h2.author {
+    font-weight:400;
+    margin-top: 2rem;
+    text-transform:none;
+}
+
+h3 {
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    font-size:1.0rem;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size:1.75rem;
+    line-height:1.75;    
+    max-width:800px;
+    font-weight:400;
+}
+
+
+strong {
+    font-weight:bold;
+}
+
+
+a, 
+a:link, 
+a:visited {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+li {
+    font-size:1.25rem;
+    font-weight:300;
+    line-height: 1.75;
+}
+
+ul {
+    padding:4% 0;
+    width:100%;`
+}
+
+
+
+
+/* *************************************** */
+/* main-specific media queries          */
+/* *************************************** */
+
+
+/* media queries 
+    * 1. Portrait format, iPhone
+    * 2. Landscape format, phone
+    * 3. Desktop screen 
+    * phone sizes: 
+    * https://stackoverflow.com/questions/52321212/iphone-xr-xs-xs-max-css-media-queries
+   */
+
+
+/* 1 mobile-portrait */
+@media only screen and (orientation : portrait) and (min-device-width: 375px) {
+    p {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+      font-size: 0.5rem;
+    }
+    li {
+        font-size:0.8rem;
+        font-weight:300;
+        line-height: 1.5;
+    }
+
+  }
+
+
+/* 2 mobile-landscape */  
+@media only screen  and (orientation : landscape)  and (min-width: 812px) { 
+  }
+
+
+/* 3 desktop */
+@media only screen and (min-width: 1280px) { 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
